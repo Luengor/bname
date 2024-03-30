@@ -22,6 +22,7 @@ authors = [
     { name="luengor", email="luengor@lueng.org" }
 ]
 description = "A small tool to bulk rename files"
+readme = "README.md"
 requires-python = ">=3.8"
 
 [project.scripts]
