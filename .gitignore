@@ -1,3 +1,9 @@
 # Virtual env
 .venv
 
+# package things
+__pycache__
+*.egg-info
+build
+test
+

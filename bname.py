@@ -43,6 +43,9 @@ def main(
             os.rename(old_name, new_name)
         print(old_name, "->", new_name)
 
-if __name__ == "__main__":
+def main():
     app()
+
+if __name__ == "__main__":
+    main()
 
