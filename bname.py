@@ -7,7 +7,7 @@ from typing_extensions import Annotated
 app = typer.Typer()
 
 @app.command()
-def main(
+def main_app(
         match_regex: Annotated[str, typer.Argument(help="The regex used to match the files.")],
         rename_regex: Annotated[str, typer.Argument(help="The output names.")],
         dry: Annotated[bool, typer.Option(help="If set, don't change files.")] = True,
